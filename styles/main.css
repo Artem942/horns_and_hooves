@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: #96f3c5;}
+h1{
+    color: rgb(224, 146, 45);
+    font-size: 25px;
+    font-weight: medium;
+}
+h2{
+    color: rgb(0, 255, 85);
+    font-size: 20px;
+    font-weight: 500;
+}
+p{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 14px;
+}
+img{border: 3px dotted rgb(0, 255, 106);}
+
+.menu ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+table td.content table td:nth-child(4) img{
+    width: 160px;
+    box-sizing: border-box;
+    object-fit: contain;
+    background-color: rgb(52, 10, 167);
+}
+
+.about ul>li:nth-child(1){font-variant: small-caps;}
+.about ol>li{font-variant: normal;}
+.about ol>li:nth-child(1){font-weight: 100;}
+.about ol>li:nth-child(2){font-weight: 300;}
+.about ol>li:nth-child(3){font-size: 15px;}
+.about ol>li:nth-child(4){font-size: 20px;}
+.about ol>li:nth-child(5){color: #7777ee}
+.about ul>li:nth-child(2){color: rgba(15, 75, 44, .2)}
+.about ul>li:nth-child(3){font: italic normal 700 15px "Roboto"}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
